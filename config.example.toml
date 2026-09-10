@@ -1,0 +1,18 @@
+[runtime]
+mode = "paper"
+base_currency = "INR"
+
+[risk]
+max_future_live_cap_inr = "500.00"
+max_order_notional_inr = "100.00"
+max_total_exposure_inr = "500.00"
+max_daily_loss_inr = "50.00"
+max_fractional_kelly = "0.25"
+
+[research]
+astra_enabled = false
+monthly_api_budget_inr = "0.00"
+
+[storage]
+# Optional future archive adapter. Do not store secrets in cloud storage.
+provider = "local"
